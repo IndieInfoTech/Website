@@ -16,7 +16,13 @@ Contents:
    online
    chapters
    projects
+   blog/index
 
+.. latest::
+    :glob:
+
+    *
+    **/*
 
 Indices and tables
 ==================

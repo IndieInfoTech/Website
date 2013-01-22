@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinxcontrib.rawfiles']
+extensions = ['sphinxcontrib.rawfiles', 'sphinxcontrib.feed']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -91,7 +91,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'f6'
+html_theme = 'nature'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -242,4 +242,9 @@ texinfo_documents = [
 #texinfo_show_urls = 'footnote'
 
 rawfiles = ['CNAME']
+
+feed_base_url = "http://www.indieinfotech.com/"
+feed_description = "IndieInfoTech"
+feed_filename = 'rss.xml'
+feed_title = 'IndieInfoTech'
 
